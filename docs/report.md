@@ -65,9 +65,9 @@ https://www.pdas.com/atmosTable1SI.html
 
 ## Appendix. 過去versionの検証ログ(保存/振り返り用)
 ### version0.0
-version0.0としてまずは等速直線運動モデルを実装.
+version0.0としてまずは等速直線運動モデルを実装した.
 
-等速直線運動でaltitudeだけ上昇行く事が確認できた.
+等速直線運動でaltitudeだけ一定速度で上昇していく事が確認できた.
 
 [Repository](https://github.com/okuma-space/balloon-simulation/tree/v0.6)
 
