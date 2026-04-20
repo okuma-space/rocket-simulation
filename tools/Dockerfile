@@ -27,8 +27,8 @@ RUN pip install \
         pytest-cov \
         plotly
 
-WORKDIR /balloon-simulation
-COPY . /balloon-simulation
+WORKDIR /rocket-simulation
+COPY . /rocket-simulation
 
-ENV PYTHONPATH=/balloon-simulation/src
+ENV PYTHONPATH=/rocket-simulation/src
 CMD ["bash"]
