@@ -77,4 +77,4 @@ version0.0としてまずは等速直線運動モデルを実装した.
 ![pos_vel](https://okuma-space.github.io/rocket-simulation/png/rocket_altitude_history_0.0.png)
 
 #### Interactive Figures
-[pos_vel](https://okuma-space.github.io/rocket-simulation/html/rocket_altitude_historyy_0.0.html)
+[pos_vel](https://okuma-space.github.io/rocket-simulation/html/rocket_altitude_history_0.0.html)
