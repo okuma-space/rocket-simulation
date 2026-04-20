@@ -5,7 +5,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository }}/balloon-sim
+  IMAGE_NAME: ghcr.io/${{ github.repository }}/rocket-sim
 
 jobs:
   build-and-push:
@@ -46,9 +46,9 @@ jobs:
       - name: Run ruff inside container
         run: |
           docker run --rm \
-            -v ${{ github.workspace }}:/balloon-simulation \
+            -v ${{ github.workspace }}:/rocket-simulation \
             $IMAGE_NAME:latest \
-            bash -c "ruff check /balloon-simulation"
+            bash -c "ruff check /rocket-simulation"
 
   test:
     runs-on: ubuntu-latest
@@ -66,7 +66,7 @@ jobs:
       - name: Run pytest with coverage
         run: |
           docker run --rm \
-            -v ${{ github.workspace }}:/balloon-simulation \
+            -v ${{ github.workspace }}:/rocket-simulation \
             $IMAGE_NAME:latest \
             bash -c "pytest tests --cov=src --cov-report=term --cov-report=xml"
 

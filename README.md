@@ -69,9 +69,9 @@ PRがmergeされる際にdeployステージが実行され、docs/report.mdをht
 # Commands
 ## dockerコマンド
 ```bash
-docker build -t balloon-sim -f .\tools\Dockerfile .
+docker build -t rocket-sim -f .\tools\Dockerfile .
 
-docker run -it --rm -v ${PWD}:/balloon-simulation balloon-sim bash
+docker run -it --rm -v ${PWD}:/rocket-simulation rocket-sim bash
 ```
 
 ## python format & style check(ruff)
