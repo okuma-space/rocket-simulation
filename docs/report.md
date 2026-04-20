@@ -69,12 +69,12 @@ version0.0としてまずは等速直線運動モデルを実装した.
 
 等速直線運動でaltitudeだけ一定速度で上昇していく事が確認できた.
 
-[Repository](https://github.com/okuma-space/balloon-simulation/tree/v0.6)
+[Repository](https://github.com/okuma-space/rocket-simulation/tree/v0.0)
 
-[PR](https://github.com/okuma-space/balloon-simulation/pull/27)
+[PR](https://github.com/okuma-space/rocket-simulation/pull/1)
 
 #### Figures
-![pos_vel](https://okuma-space.github.io/rocket-simulation/png/rocket_posvel_history_0.0.png)
+![pos_vel](https://okuma-space.github.io/rocket-simulation/png/rocket_altitude_history_0.0.png)
 
 #### Interactive Figures
-[pos_vel](https://okuma-space.github.io/rocket-simulation/html/rocket_posvel_historyy_0.0.html)
+[pos_vel](https://okuma-space.github.io/rocket-simulation/html/rocket_altitude_historyy_0.0.html)
